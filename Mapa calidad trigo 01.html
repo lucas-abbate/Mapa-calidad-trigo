@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--P.E. Abbate. 05-nov-2021.-->
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Mapa de calidad de trigo de la Región Pampeana Argentina</title>
+<meta name="description" content="Mapa de caldiad de trigo Región Pampeana Argentina." />
+<meta name="author" content="P.E. Abbate, L.I. Abbate">
+<meta name="keywords" content="Bonificación comercial, Estabilidad farinográfica, Gluten húmedo, Peso hectolítrico, Proteína del grano, Rendimiento en granodaño heladas" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge"/>-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6E9K4BCGJN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  //gtag('js', new Date());
+  //gtag('config', 'G-6E9K4BCGJN');
+</script>
+<script type="application/ld+json">
+	// Structured Data for Google search
+	{
+		"@context": "https://schema.org",
+		"@type": "Website",
+		"url": "https://cultivaresargentinos.com/trigo/heladas",
+		"name": "Mapa de probabilidad de daño por heladas tardías en trigo.",
+		"author" : {
+				"@type" : "Person",
+				"name" : "P.E. Abbate, L.I. Abbate",
+				"email": "abbate.pablo@gmail.com"
+			},
+		"description": "Mapa de calidad de trigo de la Región Pampeana Argentina.",
+		"datePublished" : "24-oct-2021"
+	}  
+</script>
+
+<style type="text/css">	
+body {
+	/*background-color: lightblue; */ /*#ADD8E6*/
+	background-color:  #fff8b3db;
+}
+
+/*Uso la definicion estandar del titulo de Datawrapper agragando centrado.*/
+#titulo {
+	background-image: url("94986b3a-c8b6-4b57-ab42-ba1fb2a822ce_2.jpg");
+}
+#titulo1 {
+	font-family: Roboto,sans-serif;
+	font-weight: bold;
+	font-size: 110%;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	line-height: 1.2;
+	margin:0;
+
+	text-align: center; 
+		font-size: xx-large;
+		margin-top:	0%;
+		margin-bottom:	0%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 100%;
+		font-weight: bold;
+		color: white;
+		text-shadow: 2px 2px 5px black; /*text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;*/	
+
+
+}
+#titulo2 {
+	font-family: Roboto,sans-serif;
+	font-weight: bold;
+	font-size: 90%;
+	text-align: center;
+	line-height: 1.2;
+	margin:0;
+
+	text-align: center; 
+	font-size: large;
+	margin-top:	-0.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	font-weight: bold;
+	color: white;
+	/*text-shadow: 0px 0px 15px black;*/ /*text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;*/		
+	text-shadow: 2px 2px 5px black, -2px -2px 5px black; /*text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;*/		
+		
+}
+#texto {
+	font-family: Roboto,sans-serif;
+	font-size: 90%;
+	text-align: left;
+	line-height: 1.2;
+	margin:0;
+}
+/*MEDIA PARA QUE CAMBIE SEGÚN EL TAMAÑO DE PANTALLA */
+/*solo se usa cuando es pantalla pequeña*/
+
+@media screen and (orientation: portrait){
+	body {
+		background-color: lightgreen;
+		background-color: lightblue;
+	}
+	#titulo1 {
+
+		text-align: center; 
+		font-size: xx-large;
+		margin-top:	0%;
+		margin-bottom:	0%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 100%;
+		font-weight: bold;
+		color: white;
+		text-shadow: 2px 2px 5px black; /*text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;*/	
+	}
+	#titulo2 {
+		font-size: 60%;
+		line-height: 1.0;
+		margin:0;
+	}
+	#texto {
+		font-size: 60%;
+		line-height: 1.0;
+		margin:0;
+	}
+}
+	
+</style>
+</head>
+<body>
+<div id="titulo" style="text-align:center; line-height: 0.5">
+	<p id="titulo1">
+		MAPA DE CALIDAD DE TRIGO DE LA REGIÓN PAMPEANA ARGENTINA<br>
+		<br>
+	</p>
+	<p id="titulo2">
+		Abbate P.E. (INTA Balcarce, Argentina; abbate.pablo@gmail.com).<br>
+		Abbate L.I. (Estudiante, FCEN, UBA, Argentina; abbate.lucas@gmail.com).<br>
+		<br>
+		Primera versión web: 5-nov-2021.<br>
+		Última actualización: 5-nov-2021.<br>
+		<br>
+	</p>
+	<p id="titulo1">
+		PÁGINA EN PERÍODO DE PRUEBA
+	</p>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+</div>
+<div style="text-align:left; line-height: 0.5; padding-left: 3%; padding-right: 3%;">
+	<p id="texto" style="text-align:center">
+		<b>
+		Para consultar sobre la caludad de los cultivares de trigo pan de Argentina ir a:<br>
+		<a href="https://cultivaresargentinos.com/trigo/calidad">INFORME ONLINE DE LA CALIDAD DE LOS CULTIVARES DE TRIGO PAN EVALUADOS EN LA RET-INASE DE ARGENTINA</a>
+		<br><br>
+		Para consultar sobre el rendimiento de cultivares de trigo pan de Argentina ir a:<br>
+		<a href="https://cultivaresargentinos.com/trigo/">INFORME ONLINE DEL RENDIMIENTO DE LOS CULTIVARES DE TRIGO PAN EVALUADOS EN LA RET-INASE DE ARGENTINA</a>
+		</b>
+		<br><br>
+	</p>
+	<p id="texto">
+		Los mapas de esta página presentan las principales variables de calidad comercial e industrial de trigo pan, promediadas por departamento o partido. El Mapa 1 presenta los últimos datos disponibles. El Mapa 2 y 3 presentan los promedios de los últimos 2 y 3 años respectivamente.
+		<br><br>
+		Los datos presentados fueron obtenidos en el marco del <a href="https://www.trigoargentino.com.ar/">Informe Trigo Argentino</a> donde pueden consultarse los datos originales e información complementaria.
+		<br><br>
+		La información se muestra presionando el punto correspondiente a una estación meteorológica. Para ver mejor el mapa use el zoon (ctrl+"+" o ctrl+rueda ratón) en una zona del mapa. Los autores de esta página no son responsables del uso que se le dé a la información suministrada, ni de los daños o perjuicios directos o indirectos que ella pueda causar. Copyright 2021.
+		<br>
+	</p>
+</div>
+
+<script type="text/javascript">
+/*
+// Para depuración:
+document.getElementById("demo1").innerHTML = window.innerWidth;
+console.log(screen.width);
+document.getElementById("demo2").innerHTML = screen.width;
+console.log(screen.width);
+*/
+</script>
+
+<!--Mapa en iframe-->
+<p id="texto" style="text-align:center">
+	<br><br>
+	<b>
+		MAPA 1: Principales variables de calidad comercial e industrial de trigo pan, promediadas por departamento/partido, correspondientes a la campaña 2019/20. <br>
+		La información se muestra presionando el punto correspondiente a una estación meteorológica.
+	</b>
+</p>
+<iframe title="Mapa_1" src="Mapa calidad trigo 1 anio.html?1" style="width: 80%; padding-left: 10%; padding-right: 10%; border:0px solid lightblue;" height="660">
+</iframe>
+<!--Fin mapa-->
+
+<!--Mapa en iframe-->
+<p id="texto" style="text-align:center">
+	<br><br>
+	<b>
+		MAPA 2: Principales variables de calidad comercial e industrial de trigo pan, promediadas por departamento/partido, correspondientes al promedio de las campaña 2019/20 y 2018/19. <br>
+		La información se muestra presionando el punto correspondiente a una estación meteorológica.
+	</b>
+</p>
+<iframe title="Mapa_2" src="Mapa calidad trigo 2 anio.html?1" style="width: 80%; padding-left: 10%; padding-right: 10%; border:0px solid lightblue;" height="660">
+</iframe>
+<!--Fin mapa-->
+
+<!--Mapa en iframe-->
+<p id="texto" style="text-align:center">
+	<br><br>
+	<b>
+		MAPA 3: Principales variables de calidad comercial e industrial de trigo pan, promediadas por departamento/partido, correspondientes al promedio de las campaña 2019/20, 2018/19 y 2017/18. <br>
+		La información se muestra presionando el punto correspondiente a una estación meteorológica.
+	</b>
+</p>
+<iframe title="Mapa_2" src="Mapa calidad trigo 3 anio.html?1" style="width: 80%; padding-left: 10%; padding-right: 10%; border:0px solid lightblue;" height="660">
+</iframe>
+<!--Fin mapa-->
+
+
+</body>
+</html>
